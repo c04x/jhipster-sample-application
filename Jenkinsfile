@@ -29,7 +29,7 @@ node {
         try {
             sh "./mvnw -ntp verify -P-webpack"
         } catch(err) {
-            
+            // test
         } finally {
             junit '**/target/test-results/**/TEST-*.xml'
         }
